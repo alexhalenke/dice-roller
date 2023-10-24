@@ -2,7 +2,7 @@ import random
 
 class Dice():
     def roll(self):
-        random.randint(1, 6)
+        return random.randint(1, 6)
 
 if __name__ == "__main__":
     dice = Dice()
